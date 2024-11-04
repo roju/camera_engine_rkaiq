@@ -14,3 +14,20 @@ rm ./rkaiq/common/gen_mesh/android/genMesh_static_64bit/libgenMeshLib.a
 rm ./IspFec/src/gen_mesh/android/genMesh_static_32bit/libgenMeshLib.a
 rm ./IspFec/src/gen_mesh/android/genMesh_static_64bit/libgenMeshLib.a
 ```
+
+## Compiling
+
+Native compile on RK3566:
+
+```sh
+mkdir build
+cd build
+cmake ..
+sudo make
+```
+
+### Tested platform
+
+Hardware: Radxa Zero 3W (RK3566)\
+System Image: Debian Bullseye (officially supported by Radxa)\
+Camera: Radxa Camera 8M 219
